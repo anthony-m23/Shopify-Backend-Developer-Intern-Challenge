@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+
+	<servlet>
+
+		<servlet-name>CreateServlet</servlet-name>
+
+		<servlet-class>com.CompanyInventory.CreateServlet</servlet-class>
+
+	</servlet>
+
+
+	<servlet-mapping>
+
+		<servlet-name>CreateServlet</servlet-name>
+
+		<url-pattern>/CreateServlet</url-pattern>
+
+	</servlet-mapping>
+
+<servlet>
+
+		<servlet-name>DeleteServlet</servlet-name>
+
+		<servlet-class>com.CompanyInventory.DeleteServlet</servlet-class>
+
+	</servlet>
+
+
+	<servlet-mapping>
+
+		<servlet-name>DeleteServlet</servlet-name>
+
+		<url-pattern>/DeleteServlet</url-pattern>
+
+	</servlet-mapping>
+<servlet>
+
+		<servlet-name>UpdateServlet</servlet-name>
+
+		<servlet-class>com.CompanyInventory.UpdateServlet</servlet-class>
+
+	</servlet>
+
+
+	<servlet-mapping>
+
+		<servlet-name>UpdateServlet</servlet-name>
+
+		<url-pattern>/UpdateServlet</url-pattern>
+
+	</servlet-mapping>
+
+
+
+</web-app>
