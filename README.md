@@ -6,8 +6,8 @@ TECHNOLOGIES NEEDED:
 1.) Java / Intellij
 2.) Tomcat 9.0
 3.) VS Code
-4.) Servlet jar file
-5.) sqlite studio / sqlite jar file
+4.) Servlet jar file (included in ShopifyWebApp.jar)
+5.) sqlite studio / sqlite jar file (included in ShopifyWebApp.jar)
 
 HOW TO RUN:
 // Jar in lib folder should be good when you run and I have provided source code to that jar (backend code)
